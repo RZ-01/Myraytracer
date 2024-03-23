@@ -202,7 +202,7 @@ void render(const std::vector<Sphere>& spheres, const std::vector<Light>& lights
 			image[i * 3 + j] = (unsigned char)(255 * std::max(0.f, std::min(1.f, framebuffer[i][j])));
 		}
 	}
-	stbi_write_png("./out2.png", width, height, 3, image.data(), width * 3);
+	stbi_write_png("./out_4k.png", width, height, 3, image.data(), width * 3);
 }
 int main()
 {

@@ -1,5 +1,5 @@
 # Myraytracer
-## Simple Introduction
+## Introduction
 Create a raytracer with bare C++ (No Graphics Library Included), built to handle various materials, light sources, and geometric shapes, providing a foundational framework for generating realistic images.
 ## Features
 - **Realistic Material Simulation**: The ray tracer supports various materials, each with unique optical properties, includes:
@@ -18,7 +18,7 @@ Create a raytracer with bare C++ (No Graphics Library Included), built to handle
 
 ## Usage
 - Download all files and open .sln project (visual studio)
-- Or Download Geo.h and main.cpp (only 2 files needed) and compile on your own IDE
+- Or Download Geo.h and main.cpp (only 2 files needed) and compile on your own 
 
 ## Future Work
 
